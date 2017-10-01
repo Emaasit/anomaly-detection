@@ -1,0 +1,51 @@
+---
+title: "Anomaly Detection"
+author: "Daniel Emaasit"
+date: '`r Sys.Date()`'
+output:
+  html_notebook:
+    highlight: textmate
+    number_sections: yes
+    theme: flatly
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, tidy = FALSE, cache = TRUE, comment = NA,
+               fig.width = 7, fig.height = 5, warning = FALSE, echo = TRUE, eval = FALSE)
+
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(knitr))
+suppressPackageStartupMessages(library(DT))
+suppressPackageStartupMessages(library(plotly))
+```
+
+# The Raw Data
+
+## Introduction
+Load the required libraries for data manipulation
+```{r}
+library(tidyverse)
+library(plotly)
+library(DT)
+library(lubridate)
+```
+
+```{r}
+data <- read_csv("/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master/data/anomaly_data.csv")
+data$person_id <- data$`Person Id` %>% as.factor()
+data$date_time <- data$`Door Access DateTime` %>% lubridate::mdy_hm()
+data <- select(data, person_id, date_time)
+```
+
+```{r}
+head(data)
+```
+```{r}
+by_id <- group_by(data, person_id)
+person1 <- filter(data, person_id == "1")
+```
+
