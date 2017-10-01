@@ -1,0 +1,72 @@
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ git init
+Initialized empty Git repository in /home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master/.git/
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31mREADME.md[m
+	[31manomaly-detection-master.Rproj[m
+	[31mreferences/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ git remote add https: //github.com/Emaasit/anomaly-detection.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ git remote add https:///github.com/Emaasit/anomaly-detection.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https:[C/github.com/Emaasit/anomaly-detection.git[A]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co https://github.com/Emaasit/anomaly-detection.git[A]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr https://github.com/Emaasit/anomaly-detection.git[A]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci https://github.com/Emaasit/anomaly-detection.git[A]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg https://github.com/Emaasit/anomaly-detection.git[A]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci h[Ctps://github.com/Emaasit/anomaly-detection.git[A]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn https://github.com/Emaasit/anomaly-detection.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C h[1Pttps://github.com/Emaasit/anomaly-detection.git[A]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cht[C[1Pps://github.com/Emaasit/anomaly-detection.git[A]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnh[Ctps://github.com/Emaasit/anomaly-detection.git https://github.com/Emaasit/anomaly-detection.git[C https://github.com/Emaasit/anomaly-detection.git[C[C
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31mREADME.md[m
+	[31manomaly-detection-master.Rproj[m
+	[31mreferences/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ git add --all
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ git add --all[3Pstatus
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   .Rproj.user/27223F64/console06/551F94D3[m
+	[32mnew file:   .Rproj.user/27223F64/console06/551F94D3.env[m
+	[32mnew file:   .Rproj.user/27223F64/console06/INDEX001[m
+	[32mnew file:   .Rproj.user/27223F64/sources/s-7e3e20c1/lock_file[m
+	[32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[m
+	[32mnew file:   README.md[m
+	[32mnew file:   anomaly-detection-master.Rproj[m
+	[32mnew file:   references/RobustPCA.pdf[m
+	[32mnew file:   references/anomaly_data.csv[m
+	[32mnew file:   references/bishop-ppca-jrss.pdf[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/27223F64/console06/551F94D3[m
+
+]0;/home/daniel/Dropbox/Research-Jobs/Haystax/anomaly-detection-master]0;daniel@daniel-linux: ~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[01;32mdaniel@daniel-linux[00m:[01;34m~/Dropbox/Research-Jobs/Haystax/anomaly-detection-master[00m$ gita[K add =[K--all
